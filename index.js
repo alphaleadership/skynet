@@ -17,7 +17,7 @@ function log(data) {
 }
 async function main (){
   let i=0
-  while(i<=100){
+  while(i<=10){
     await delay(10)
     const message = "11";
     log(message);
